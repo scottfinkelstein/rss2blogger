@@ -3,7 +3,7 @@ import urllib2
 import feedparser
 
 class RSS2Blogger():
-	def display_info(self):
+	def display(self):
 		f=feedparser.parse('http://adelphi-tech.blogspot.com/feeds/posts/default')
 	
 		for entry in f.entries:
